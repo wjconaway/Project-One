@@ -7,12 +7,23 @@ for reimbursement and view their past tickets and pending requests. Finance mana
 view all reimbursement requests and past history for all employees in the company. Finance managers 
 are authorized to approve and deny requests for expense reimbursement.
 
-The back-end system connect to a Postgres database
-• The backend also use Javalin technology for processing incoming HTTP requests and 
+Technical Requirements
+
+• The back-end system was connected to a Postgres database
+
+• The backend also used Javalin technology for processing incoming HTTP requests and 
 providing an appropriate HTTP response for each endpoint
-• The front-end view can use HTML, CSS, and JavaScript (multi-page application) that uses the 
-Fetch API to call server-side (backend) components
-• Users can upload a document or image of their receipt when submitting reimbursements
+
+• The front-end view I used HTML, CSS, and JavaScript 
+
+• Multi-page application that used the Fetch API to call server-side (backend) components
+
+• Upload for documents or images for receipts was included
+
+• Logging using Logback was also utilized
+
 • Unit testing code coverage using JUnit 5 for the Service layer 
-• Selenium tests for all major functionality (logging in as a user, logging out, logging in as a finance manager 
-and Employee
+
+• Selenium tests for major functionalities such as logging in as a user, logging out, submitting a 
+reimbursement, logging in as a finance manager, approving a reimbursement, denying a 
+reimbursement accomplished

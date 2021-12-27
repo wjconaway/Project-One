@@ -9,23 +9,20 @@ were authorized to approve and deny requests for expense reimbursement.
 
 Technical Requirements
 
-- The back-end system was connected to a Postgres database
+- Utilized the back-end system to connect to a Postgres database
 
-- The backend also used Javalin technology for processing incoming HTTP requests and 
-providing an appropriate HTTP response for each endpoint
+- Connected the backend to Javalin technology for processing incoming HTTP requests and providing an appropriate HTTP response for each endpoint
 
-- The front-end view I used HTML, CSS, and JavaScript 
+- Used HTML, CSS, and JavaScript for the front-end view
 
-- Multi-page application that used the Fetch API to call server-side (backend) components
+- Provided the Fetch API to call server-side (backend) components for a multi-page application
 
-- Upload for documents or images for receipts was included
+- Give the ability to upload documents and images for receipts
 
-- Logging using Logback was also utilized
+- Used the Logback for logging
 
-- Cucumber was also another technology for testing I used
+- Used Cucumber as one of the technologies for testing
 
-- Unit testing code coverage using JUnit 5 for the Service layer 
+- Used JUnit 5 for testing code coverage for the Service layer 
 
-- Selenium tests for major functionalities such as logging in as a user, logging out, submitting a 
-reimbursement, logging in as a finance manager, approving a reimbursement, denying a 
-reimbursement accomplished
+- Implemented Selenium tests for major functionalities such as logging in as a user, logging out, submitting a reimbursement, logging in as a finance manager, approving a reimbursement, denying a reimbursement accomplished
